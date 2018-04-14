@@ -1,0 +1,18 @@
+<resources>
+    <string name="now_playing_str">Now Playing</string>
+    <string name="top_rated_str">Top Rated</string>
+    <string name="most_popular_str">Most Popular</string>
+    <string name="app_name">Popular Movies</string>
+    <string name="title_str">Title</string>
+    <string name="error_internet">Check your Internet Connection and try again</string>
+    <string name="error_msg">Error Occurred!</string>
+    <string name="overview_str">Overview</string>
+    <string name="on_ten">/10</string>
+    <string name="unknown_uri_str">Unknown Uri:</string>
+    <string name="trailers_str">Trailers</string>
+    <string name="reviews_str">Reviews</string>
+    <string name="str_nothing">-</string>
+    <string name="my_favourites">My Favourites</string>
+    <string name="removi_string">Removed from My Favourites</string>
+    <string name="added_string">Added to My Favourites</string>
+</resources>
