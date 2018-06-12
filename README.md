@@ -37,17 +37,20 @@ The app:
 
 ## Screenshots
 
-![](./screenshots/pm7.jpg =120x250)
 
-![](/screenshots/pm2.jpg)
+<img src="/screenshots/pm7.jpg" width="300">
 
-![](/screenshots/pm4.jpg)
+<img src="/screenshots/pm2.jpg" width="300">
 
-![](/screenshots/pm6.jpg)
+<img src="/screenshots/pm4.jpg" width="300">
 
-![](/screenshots/pm1.jpg)
+<img src="/screenshots/pm6.jpg" width="300">
 
-![](/screenshots/pm5.jpg)
+<img src="/screenshots/pm1.jpg" width="300">
+
+<img src="/screenshots/pm5.jpg" width="300">
+
+
 
 
 ## What I learnt
