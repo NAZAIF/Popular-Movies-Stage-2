@@ -37,7 +37,7 @@ The app:
 
 ## Screenshots
 
-![Movies sorted by Most Popular](/screenshots/pm7.jpg | width = 120 | height = 250)
+![Movies sorted by Most Popular](/screenshots/pm7.jpg=250x100)
 ![setting](/screenshots/pm2.jpg)
 ![detail1](/screenshots/pm4.jpg)
 ![detail2](/screenshots/pm6.jpg)
