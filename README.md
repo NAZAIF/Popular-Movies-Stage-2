@@ -37,12 +37,17 @@ The app:
 
 ## Screenshots
 
-![Movies sorted by Most Popular](/screenshots/pm7.jpg=250x100)
-![setting](/screenshots/pm2.jpg)
-![detail1](/screenshots/pm4.jpg)
-![detail2](/screenshots/pm6.jpg)
-![review](/screenshots/pm1.jpg)
-![fav](/screenshots/pm5.jpg)
+![](./screenshots/pm7.jpg =120x250)
+
+![](/screenshots/pm2.jpg)
+
+![](/screenshots/pm4.jpg)
+
+![](/screenshots/pm6.jpg)
+
+![](/screenshots/pm1.jpg)
+
+![](/screenshots/pm5.jpg)
 
 
 ## What I learnt
@@ -50,5 +55,7 @@ The app:
 - Fetched data from the Internet with theMovieDB API.
 - Used adapters and custom list layouts to populate list views.
 - Incorporate libraries([Picasso](http://square.github.io/picasso/),[Retrofit](http://square.github.io/retrofit/),[OKHttp](http://square.github.io/okhttp/),[Parceler](https://github.com/johncarl81/parceler)) to simplify the amount of code I need to write
+- Used Content providers, SQLite database for local storage of Favourite movie details thus made it available offline.
+- Used Recyclerview for movie posters, trailers and reviews.
 - Built a fully featured application that looks and feels natural on the Android OS.
 
