@@ -1,4 +1,7 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.api;
+
+import com.example.android.popularmoviesapp.pojo.MovieManager;
+import com.example.android.popularmoviesapp.pojo.MovieResults;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

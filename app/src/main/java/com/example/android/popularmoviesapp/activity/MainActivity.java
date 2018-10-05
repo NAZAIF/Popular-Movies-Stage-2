@@ -1,4 +1,4 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.activity;
 
 import android.app.LoaderManager;
 import android.content.AsyncTaskLoader;
@@ -9,8 +9,6 @@ import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import android.os.Parcelable;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -24,6 +22,15 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.popularmoviesapp.utils.DBUtils;
+import com.example.android.popularmoviesapp.api.MDBServiceAPI;
+import com.example.android.popularmoviesapp.api.MovieAPIinterface;
+import com.example.android.popularmoviesapp.adapter.MovieAdapter;
+import com.example.android.popularmoviesapp.provider.MovieContract;
+import com.example.android.popularmoviesapp.pojo.MovieManager;
+import com.example.android.popularmoviesapp.pojo.MovieResults;
+import com.example.android.popularmoviesapp.R;
+
 import org.parceler.Parcels;
 
 import java.util.ArrayList;
@@ -33,8 +40,8 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static com.example.android.popularmoviesapp.MovieContract.FavoriteMovieEntry.*;
-import static com.example.android.popularmoviesapp.MovieDetailsActivity.EXTRA_MOVIE_PARCELABLE;
+import static com.example.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
+import static com.example.android.popularmoviesapp.activity.MovieDetailsActivity.EXTRA_MOVIE_PARCELABLE;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>, MovieAdapter.ClickListener {
 

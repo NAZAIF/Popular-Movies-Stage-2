@@ -1,8 +1,10 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.utils;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.support.v4.content.ContextCompat;
+
+import com.example.android.popularmoviesapp.R;
 
 /**
  * Created by nazaif on 21/12/17.

@@ -1,11 +1,11 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.provider;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-import static com.example.android.popularmoviesapp.MovieContract.FavoriteMovieEntry.*;
+import static com.example.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
 
 /**
  * Created by nazaif on 5/2/18.

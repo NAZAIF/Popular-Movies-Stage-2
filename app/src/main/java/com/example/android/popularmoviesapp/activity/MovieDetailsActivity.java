@@ -1,4 +1,4 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.activity;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -19,6 +19,17 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.popularmoviesapp.utils.DBUtils;
+import com.example.android.popularmoviesapp.api.MDBServiceAPI;
+import com.example.android.popularmoviesapp.api.MovieAPIinterface;
+import com.example.android.popularmoviesapp.pojo.MovieManager;
+import com.example.android.popularmoviesapp.R;
+import com.example.android.popularmoviesapp.pojo.ReviewManager;
+import com.example.android.popularmoviesapp.pojo.ReviewResults;
+import com.example.android.popularmoviesapp.adapter.ReviewsAdapter;
+import com.example.android.popularmoviesapp.adapter.TrailerAdapter;
+import com.example.android.popularmoviesapp.pojo.TrailerManager;
+import com.example.android.popularmoviesapp.pojo.TrailerResults;
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;
@@ -28,8 +39,8 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static com.example.android.popularmoviesapp.MDBServiceAPI.YOUTUBE_URL;
-import static com.example.android.popularmoviesapp.MovieContract.FavoriteMovieEntry.*;
+import static com.example.android.popularmoviesapp.api.MDBServiceAPI.YOUTUBE_URL;
+import static com.example.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
 
 
 public class MovieDetailsActivity extends MainActivity implements TrailerAdapter.TrailersListener, ReviewsAdapter.ReviewListener {

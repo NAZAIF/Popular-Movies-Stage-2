@@ -1,4 +1,4 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.utils;
 
 /**
  * Created by nazaif on 6/2/18.
@@ -7,8 +7,10 @@ package com.example.android.popularmoviesapp;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import static com.example.android.popularmoviesapp.MDBServiceAPI.SORTBY_DEFAULT;
-import static com.example.android.popularmoviesapp.MovieDetailsActivity.SHARED_PREF_FILE;
+import com.example.android.popularmoviesapp.pojo.MovieManager;
+
+import static com.example.android.popularmoviesapp.api.MDBServiceAPI.SORTBY_DEFAULT;
+import static com.example.android.popularmoviesapp.activity.MovieDetailsActivity.SHARED_PREF_FILE;
 
 public class DBUtils {
     public static final String SELECTED_ITEM_MENU = "selected_item_menu";

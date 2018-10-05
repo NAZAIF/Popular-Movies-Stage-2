@@ -1,9 +1,11 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.android.popularmoviesapp.R;
 
 public class ReviewViewer extends AppCompatActivity {
 

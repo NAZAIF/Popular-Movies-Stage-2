@@ -1,4 +1,4 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.pojo;
 
 import com.google.gson.annotations.SerializedName;
 

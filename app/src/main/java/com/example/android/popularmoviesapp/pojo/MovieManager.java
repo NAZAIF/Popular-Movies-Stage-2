@@ -1,6 +1,4 @@
-package com.example.android.popularmoviesapp;
-
-import android.provider.MediaStore;
+package com.example.android.popularmoviesapp.pojo;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -38,8 +36,7 @@ public class MovieManager {
     private String releaseDate;
 
 
-    public MovieManager() {
-    }
+    public MovieManager() {}
 
     public long getId() {
         return id;

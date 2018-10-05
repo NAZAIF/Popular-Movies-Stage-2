@@ -1,4 +1,4 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import static com.example.android.popularmoviesapp.MDBServiceAPI.BACKDROP_URL;
+import static com.example.android.popularmoviesapp.api.MDBServiceAPI.BACKDROP_URL;
 
+import com.example.android.popularmoviesapp.pojo.MovieManager;
+import com.example.android.popularmoviesapp.R;
+import com.example.android.popularmoviesapp.pojo.TrailerManager;
+import com.example.android.popularmoviesapp.pojo.TrailerResults;
 import com.squareup.picasso.Picasso;
 
 /**

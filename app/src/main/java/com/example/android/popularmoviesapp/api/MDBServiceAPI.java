@@ -1,4 +1,6 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.api;
+
+import com.example.android.popularmoviesapp.BuildConfig;
 
 import java.io.IOException;
 

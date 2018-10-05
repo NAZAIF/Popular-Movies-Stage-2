@@ -1,5 +1,6 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.pojo;
 
+import com.example.android.popularmoviesapp.pojo.MovieManager;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;

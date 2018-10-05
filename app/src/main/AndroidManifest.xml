@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,17 +20,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MovieDetailsActivity"
-            android:parentActivityName=".MainActivity"
+            android:name=".activity.MovieDetailsActivity"
+            android:parentActivityName=".activity.MainActivity"
             android:theme="@style/MovieDetailTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activity.MainActivity" />
         </activity>
-        <activity android:name=".ReviewViewer" />
+        <activity android:name=".activity.ReviewViewer" />
 
         <provider
-            android:name=".MovieDetailsContentProvider"
+            android:name=".provider.MovieDetailsContentProvider"
             android:authorities="com.example.android.popularmoviesapp"
             android:exported="false" />
     </application>

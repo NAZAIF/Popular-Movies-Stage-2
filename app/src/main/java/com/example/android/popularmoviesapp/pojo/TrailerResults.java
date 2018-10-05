@@ -1,5 +1,6 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.pojo;
 
+import com.example.android.popularmoviesapp.pojo.TrailerManager;
 import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;

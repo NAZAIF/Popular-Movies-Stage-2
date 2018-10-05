@@ -1,4 +1,4 @@
-package com.example.android.popularmoviesapp;
+package com.example.android.popularmoviesapp.provider;
 
 import android.net.Uri;
 import android.provider.BaseColumns;
