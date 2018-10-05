@@ -1,6 +1,64 @@
-# Popular-Movies-Stage-2
-This is Stage 2 of Popular Movies App for Android Developer Nanodegree by Udacity.
+# Popular-Movies App
 
-Place your API KEY in gradle.properties file.
+In this App, you can discover the **most popular**, **top - rated** and **now - playing** movies. Ratings, reviews, trailers and everything about the movies you love is now at your fingertips.
 
-Thanks.
+The project is done as part of the **Android Developer Nanodegree** by _Udacity_.
+
+This app uses **TheMovieDb** API 
+
+
+## Features
+
+The app:
+- Present the user with a grid arrangement of movie posters upon launch.
+- User can change the sort order via a setting as:
+  * Most Popular
+  * Top Rated
+  * Now Playing
+- Tap on a movie poster and transition to details screen with additional information such as:
+  * Original Title
+  * Movie poster Image thumbnail
+  * A plot Synopsis
+  * User Rating
+  * Release date
+- Users can view and play trailers ( either in the youtube app or a web browser).
+- Users can read reviews of a selected movie.
+- Users can mark a movie as a favorite in the details view by tapping a button(star) and its details can be viewed offline.
+
+
+## Install 
+
+- Request an API key from [TheMovieDb](https://www.themoviedb.org/)
+- Clone this project.
+- Place your key in `gradle.properties` file as the value for `API_KEY`.
+- Run the project from Android Studio.
+- Follow your favourite movies.
+
+
+## Screenshots
+
+
+<img src="/screenshots/pm7.jpg" width="300">
+
+<img src="/screenshots/pm2.jpg" width="300">
+
+<img src="/screenshots/pm4.jpg" width="300">
+
+<img src="/screenshots/pm6.jpg" width="300">
+
+<img src="/screenshots/pm1.jpg" width="300">
+
+<img src="/screenshots/pm5.jpg" width="300">
+
+
+
+
+## What I learnt
+
+- Fetched data from the Internet with theMovieDB API.
+- Used adapters and custom list layouts to populate list views.
+- Incorporate libraries([Picasso](http://square.github.io/picasso/),[Retrofit](http://square.github.io/retrofit/),[OKHttp](http://square.github.io/okhttp/),[Parceler](https://github.com/johncarl81/parceler)) to simplify the amount of code I need to write
+- Used Content providers, SQLite database for local storage of Favourite movie details thus made it available offline.
+- Used Recyclerview for movie posters, trailers and reviews.
+- Built a fully featured application that looks and feels natural on the Android OS.
+
