@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.popularmoviesapp">
+    package="dev.nazaif.android.popularmoviesapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="dev.nazaif.android.popularmoviesapp.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,18 +20,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.MovieDetailsActivity"
-            android:parentActivityName=".activity.MainActivity"
+            android:name="dev.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity"
+            android:parentActivityName="dev.nazaif.android.popularmoviesapp.activity.MainActivity"
             android:theme="@style/MovieDetailTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity.MainActivity" />
+                android:value="dev.nazaif.android.popularmoviesapp.activity.MainActivity" />
         </activity>
-        <activity android:name=".activity.ReviewViewer" />
+        <activity android:name="dev.nazaif.android.popularmoviesapp.activity.ReviewViewer" />
 
         <provider
-            android:name=".provider.MovieDetailsContentProvider"
-            android:authorities="com.example.android.popularmoviesapp"
+            android:name="dev.nazaif.android.popularmoviesapp.provider.MovieDetailsContentProvider"
+            android:authorities="dev.nazaif.android.popularmoviesapp"
             android:exported="false" />
     </application>
 
