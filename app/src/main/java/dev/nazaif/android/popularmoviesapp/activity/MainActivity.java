@@ -36,6 +36,7 @@ import org.parceler.Parcels;
 import java.util.ArrayList;
 import java.util.List;
 
+import dev.nazaif.android.popularmoviesapp.utils.SizeUtils;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -76,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         }
 
 
-        GridLayoutManager layoutManager = new GridLayoutManager(this, 2);
+        GridLayoutManager layoutManager = new GridLayoutManager(this, SizeUtils.calculateNoOfColumns(this));
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
 
