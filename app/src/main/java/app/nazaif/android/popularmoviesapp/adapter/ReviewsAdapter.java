@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.adapter;
+package app.nazaif.android.popularmoviesapp.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,10 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 import dev.nazaif.android.popularmoviesapp.R;
-import dev.nazaif.android.popularmoviesapp.pojo.ReviewManager;
-import dev.nazaif.android.popularmoviesapp.pojo.ReviewResults;
+import app.nazaif.android.popularmoviesapp.pojo.ReviewManager;
+import app.nazaif.android.popularmoviesapp.pojo.ReviewResults;
 
 /**
  * Created by nazaif on 5/2/18.

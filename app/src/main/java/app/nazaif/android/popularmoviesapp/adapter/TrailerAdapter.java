@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.adapter;
+package app.nazaif.android.popularmoviesapp.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,12 +8,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import static dev.nazaif.android.popularmoviesapp.api.MDBServiceAPI.BACKDROP_URL;
+import static app.nazaif.android.popularmoviesapp.api.MDBServiceAPI.BACKDROP_URL;
 
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 import dev.nazaif.android.popularmoviesapp.R;
-import dev.nazaif.android.popularmoviesapp.pojo.TrailerManager;
-import dev.nazaif.android.popularmoviesapp.pojo.TrailerResults;
+import app.nazaif.android.popularmoviesapp.pojo.TrailerManager;
+import app.nazaif.android.popularmoviesapp.pojo.TrailerResults;
 import com.squareup.picasso.Picasso;
 
 /**

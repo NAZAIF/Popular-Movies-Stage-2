@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="dev.nazaif.android.popularmoviesapp.activity.MainActivity">
+        <activity android:name="app.nazaif.android.popularmoviesapp.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,17 +22,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="dev.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity"
-            android:parentActivityName="dev.nazaif.android.popularmoviesapp.activity.MainActivity"
+            android:name="app.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity"
+            android:parentActivityName="app.nazaif.android.popularmoviesapp.activity.MainActivity"
             android:theme="@style/MovieDetailTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="dev.nazaif.android.popularmoviesapp.activity.MainActivity" />
+                android:value="app.nazaif.android.popularmoviesapp.activity.MainActivity" />
         </activity>
-        <activity android:name="dev.nazaif.android.popularmoviesapp.activity.ReviewViewer" />
+        <activity android:name="app.nazaif.android.popularmoviesapp.activity.ReviewViewer" />
 
         <provider
-            android:name="dev.nazaif.android.popularmoviesapp.provider.MovieDetailsContentProvider"
+            android:name="app.nazaif.android.popularmoviesapp.provider.MovieDetailsContentProvider"
             android:authorities="dev.nazaif.android.popularmoviesapp"
             android:exported="false" />
     </application>

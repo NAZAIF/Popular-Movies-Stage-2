@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.api;
+package app.nazaif.android.popularmoviesapp.api;
 
 import dev.nazaif.android.popularmoviesapp.BuildConfig;
 

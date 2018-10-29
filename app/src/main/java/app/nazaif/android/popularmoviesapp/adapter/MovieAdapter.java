@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.adapter;
+package app.nazaif.android.popularmoviesapp.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import dev.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 import dev.nazaif.android.popularmoviesapp.R;
-import dev.nazaif.android.popularmoviesapp.utils.ColorUtils;
+import app.nazaif.android.popularmoviesapp.utils.ColorUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

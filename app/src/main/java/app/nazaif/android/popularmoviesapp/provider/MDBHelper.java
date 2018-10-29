@@ -1,11 +1,11 @@
-package dev.nazaif.android.popularmoviesapp.provider;
+package app.nazaif.android.popularmoviesapp.provider;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-import static dev.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
+import static app.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
 
 /**
  * Created by nazaif on 5/2/18.

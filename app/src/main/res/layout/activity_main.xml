@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/dimBg"
     android:orientation="vertical"
-    tools:context="dev.nazaif.android.popularmoviesapp.activity.MainActivity">
+    tools:context="app.nazaif.android.popularmoviesapp.activity.MainActivity">
 
     <View
         android:layout_width="match_parent"

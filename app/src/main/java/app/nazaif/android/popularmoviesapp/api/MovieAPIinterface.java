@@ -1,7 +1,7 @@
-package dev.nazaif.android.popularmoviesapp.api;
+package app.nazaif.android.popularmoviesapp.api;
 
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
-import dev.nazaif.android.popularmoviesapp.pojo.MovieResults;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.pojo.MovieResults;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

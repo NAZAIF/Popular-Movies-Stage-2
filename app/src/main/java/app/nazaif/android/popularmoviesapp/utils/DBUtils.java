@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.utils;
+package app.nazaif.android.popularmoviesapp.utils;
 
 /**
  * Created by nazaif on 6/2/18.
@@ -7,10 +7,10 @@ package dev.nazaif.android.popularmoviesapp.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 
-import static dev.nazaif.android.popularmoviesapp.api.MDBServiceAPI.SORTBY_DEFAULT;
-import static dev.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity.SHARED_PREF_FILE;
+import static app.nazaif.android.popularmoviesapp.api.MDBServiceAPI.SORTBY_DEFAULT;
+import static app.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity.SHARED_PREF_FILE;
 
 public class DBUtils {
     public static final String SELECTED_ITEM_MENU = "selected_item_menu";

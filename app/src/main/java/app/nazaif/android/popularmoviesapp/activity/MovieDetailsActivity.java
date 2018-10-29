@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.activity;
+package app.nazaif.android.popularmoviesapp.activity;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -19,17 +19,17 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import dev.nazaif.android.popularmoviesapp.utils.DBUtils;
-import dev.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
-import dev.nazaif.android.popularmoviesapp.api.MovieAPIinterface;
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.utils.DBUtils;
+import app.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
+import app.nazaif.android.popularmoviesapp.api.MovieAPIinterface;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 import dev.nazaif.android.popularmoviesapp.R;
-import dev.nazaif.android.popularmoviesapp.pojo.ReviewManager;
-import dev.nazaif.android.popularmoviesapp.pojo.ReviewResults;
-import dev.nazaif.android.popularmoviesapp.adapter.ReviewsAdapter;
-import dev.nazaif.android.popularmoviesapp.adapter.TrailerAdapter;
-import dev.nazaif.android.popularmoviesapp.pojo.TrailerManager;
-import dev.nazaif.android.popularmoviesapp.pojo.TrailerResults;
+import app.nazaif.android.popularmoviesapp.pojo.ReviewManager;
+import app.nazaif.android.popularmoviesapp.pojo.ReviewResults;
+import app.nazaif.android.popularmoviesapp.adapter.ReviewsAdapter;
+import app.nazaif.android.popularmoviesapp.adapter.TrailerAdapter;
+import app.nazaif.android.popularmoviesapp.pojo.TrailerManager;
+import app.nazaif.android.popularmoviesapp.pojo.TrailerResults;
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;
@@ -39,8 +39,8 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static dev.nazaif.android.popularmoviesapp.api.MDBServiceAPI.YOUTUBE_URL;
-import static dev.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
+import static app.nazaif.android.popularmoviesapp.api.MDBServiceAPI.YOUTUBE_URL;
+import static app.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
 
 
 public class MovieDetailsActivity extends MainActivity implements TrailerAdapter.TrailersListener, ReviewsAdapter.ReviewListener {

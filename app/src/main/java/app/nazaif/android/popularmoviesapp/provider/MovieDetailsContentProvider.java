@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.provider;
+package app.nazaif.android.popularmoviesapp.provider;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import static dev.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
+import static app.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
 
 /**
  * Created by nazaif on 5/2/18.

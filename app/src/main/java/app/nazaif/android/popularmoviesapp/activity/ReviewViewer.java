@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.activity;
+package app.nazaif.android.popularmoviesapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

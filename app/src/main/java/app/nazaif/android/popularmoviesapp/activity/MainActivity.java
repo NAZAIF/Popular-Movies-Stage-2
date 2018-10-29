@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.activity;
+package app.nazaif.android.popularmoviesapp.activity;
 
 import android.app.LoaderManager;
 import android.content.AsyncTaskLoader;
@@ -22,13 +22,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import dev.nazaif.android.popularmoviesapp.utils.DBUtils;
-import dev.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
-import dev.nazaif.android.popularmoviesapp.api.MovieAPIinterface;
-import dev.nazaif.android.popularmoviesapp.adapter.MovieAdapter;
-import dev.nazaif.android.popularmoviesapp.provider.MovieContract;
-import dev.nazaif.android.popularmoviesapp.pojo.MovieManager;
-import dev.nazaif.android.popularmoviesapp.pojo.MovieResults;
+import app.nazaif.android.popularmoviesapp.utils.DBUtils;
+import app.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
+import app.nazaif.android.popularmoviesapp.api.MovieAPIinterface;
+import app.nazaif.android.popularmoviesapp.adapter.MovieAdapter;
+import app.nazaif.android.popularmoviesapp.provider.MovieContract;
+import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
+import app.nazaif.android.popularmoviesapp.pojo.MovieResults;
 import dev.nazaif.android.popularmoviesapp.R;
 
 import org.parceler.Parcels;
@@ -36,13 +36,13 @@ import org.parceler.Parcels;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.nazaif.android.popularmoviesapp.utils.SizeUtils;
+import app.nazaif.android.popularmoviesapp.utils.SizeUtils;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static dev.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
-import static dev.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity.EXTRA_MOVIE_PARCELABLE;
+import static app.nazaif.android.popularmoviesapp.provider.MovieContract.FavoriteMovieEntry.*;
+import static app.nazaif.android.popularmoviesapp.activity.MovieDetailsActivity.EXTRA_MOVIE_PARCELABLE;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>, MovieAdapter.ClickListener {
 

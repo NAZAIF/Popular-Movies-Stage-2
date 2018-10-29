@@ -1,4 +1,4 @@
-package dev.nazaif.android.popularmoviesapp.pojo;
+package app.nazaif.android.popularmoviesapp.pojo;
 
 import com.google.gson.annotations.SerializedName;
 
