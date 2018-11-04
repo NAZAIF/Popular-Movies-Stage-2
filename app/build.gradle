@@ -6,8 +6,8 @@ android {
         applicationId "app.nazaif.android.app.nazaif.android.popularmoviesapp"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 3
-        versionName "1.12"
+        versionCode 4
+        versionName "1.15"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "API_KEY", API_KEY)
     }

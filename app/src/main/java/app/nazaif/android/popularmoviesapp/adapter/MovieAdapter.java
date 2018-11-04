@@ -12,7 +12,7 @@ import android.widget.TextView;
 import app.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
 import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 import app.nazaif.android.popularmoviesapp.R;
-import app.nazaif.android.popularmoviesapp.utils.ColorUtils;
+
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -24,7 +24,7 @@ import java.util.List;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapterViewHolder> {
 
-    private static int holderCount;
+//    private static int holderCount;
     ClickListener clickListener;
     Context context;
     List<MovieManager> movieManager;
@@ -33,7 +33,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapter
         this.context = c;
         this.movieManager = movieManagerList;
         this.clickListener = listener;
-        holderCount = 0;
+//        holderCount = 0;
     }
 
     public void setList(List<MovieManager> list) {
@@ -47,9 +47,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapter
     public MovieAdapterViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card, parent, false);
         MovieAdapterViewHolder holder = new MovieAdapterViewHolder(v);
-        int holderColor = ColorUtils.getViewHolderBackgroundColorFromInstance(context, holderCount);
-        holder.title_textView.setBackgroundColor(holderColor);
-        holderCount++;
+//        int holderColor = ColorUtils.getViewHolderBackgroundColorFromInstance(context, holderCount);
+//        holder.title_textView.setBackgroundColor(holderColor);
+//        holderCount++;
         return holder;
     }
 
