@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import dev.nazaif.android.popularmoviesapp.R;
+import app.nazaif.android.popularmoviesapp.R;
 
 public class ReviewViewer extends AppCompatActivity {
 

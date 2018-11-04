@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
-import dev.nazaif.android.popularmoviesapp.R;
+import app.nazaif.android.popularmoviesapp.R;
 import app.nazaif.android.popularmoviesapp.pojo.ReviewManager;
 import app.nazaif.android.popularmoviesapp.pojo.ReviewResults;
 

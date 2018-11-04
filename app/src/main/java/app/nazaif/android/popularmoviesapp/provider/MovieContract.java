@@ -8,7 +8,7 @@ import android.provider.BaseColumns;
  */
 
 public class MovieContract {
-    public static final String AUTHORITY = "app.nazaif.android.app.nazaif.android.popularmoviesapp";
+    public static final String AUTHORITY = "app.nazaif.android.popularmoviesapp";
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + AUTHORITY);
     public static final String FAVOURITES_MOVIES_PATH = "favourite_movie";
 

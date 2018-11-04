@@ -1,9 +1,9 @@
 package app.nazaif.android.popularmoviesapp.api;
 
-import dev.nazaif.android.popularmoviesapp.BuildConfig;
 
 import java.io.IOException;
 
+import app.nazaif.android.popularmoviesapp.BuildConfig;
 import okhttp3.HttpUrl;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;

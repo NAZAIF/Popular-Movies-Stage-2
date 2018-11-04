@@ -11,7 +11,7 @@ import android.widget.TextView;
 import static app.nazaif.android.popularmoviesapp.api.MDBServiceAPI.BACKDROP_URL;
 
 import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
-import dev.nazaif.android.popularmoviesapp.R;
+import app.nazaif.android.popularmoviesapp.R;
 import app.nazaif.android.popularmoviesapp.pojo.TrailerManager;
 import app.nazaif.android.popularmoviesapp.pojo.TrailerResults;
 import com.squareup.picasso.Picasso;

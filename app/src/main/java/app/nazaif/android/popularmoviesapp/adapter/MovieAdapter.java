@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import app.nazaif.android.popularmoviesapp.api.MDBServiceAPI;
 import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
-import dev.nazaif.android.popularmoviesapp.R;
+import app.nazaif.android.popularmoviesapp.R;
 import app.nazaif.android.popularmoviesapp.utils.ColorUtils;
 import com.squareup.picasso.Picasso;
 

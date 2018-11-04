@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.support.v4.content.ContextCompat;
 
-import dev.nazaif.android.popularmoviesapp.R;
+import app.nazaif.android.popularmoviesapp.R;
 
 /**
  * Created by nazaif on 21/12/17.

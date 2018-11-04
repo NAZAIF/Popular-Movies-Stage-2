@@ -29,7 +29,7 @@ import app.nazaif.android.popularmoviesapp.adapter.MovieAdapter;
 import app.nazaif.android.popularmoviesapp.provider.MovieContract;
 import app.nazaif.android.popularmoviesapp.pojo.MovieManager;
 import app.nazaif.android.popularmoviesapp.pojo.MovieResults;
-import dev.nazaif.android.popularmoviesapp.R;
+import app.nazaif.android.popularmoviesapp.R;
 
 import org.parceler.Parcels;
 
