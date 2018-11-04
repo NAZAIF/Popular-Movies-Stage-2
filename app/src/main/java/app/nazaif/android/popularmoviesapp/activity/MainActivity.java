@@ -197,6 +197,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         outState.putString(SELECTED_STRING, titleText.getText().toString());
     }
 
+    /**
+     * To get data from internet*/
     public void getMovieData(String sortBy) {
         Call<MovieResults> call = mAPI.getPopular(sortBy);
         call.enqueue(new Callback<MovieResults>() {
